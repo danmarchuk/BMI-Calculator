@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9388D471295105F7000FE7CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388D470295105F7000FE7CD /* AppDelegate.swift */; };
 		9388D473295105F7000FE7CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388D472295105F7000FE7CD /* SceneDelegate.swift */; };
-		9388D475295105F7000FE7CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388D474295105F7000FE7CD /* ViewController.swift */; };
+		9388D475295105F7000FE7CD /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388D474295105F7000FE7CD /* CalculateViewController.swift */; };
 		9388D478295105F7000FE7CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9388D476295105F7000FE7CD /* Main.storyboard */; };
 		9388D47A295105F9000FE7CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9388D479295105F9000FE7CD /* Assets.xcassets */; };
 		9388D47D295105F9000FE7CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9388D47B295105F9000FE7CD /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		9388D46D295105F7000FE7CD /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9388D470295105F7000FE7CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9388D472295105F7000FE7CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9388D474295105F7000FE7CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9388D474295105F7000FE7CD /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		9388D477295105F7000FE7CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9388D479295105F9000FE7CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9388D47C295105F9000FE7CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,13 +58,37 @@
 			children = (
 				9388D470295105F7000FE7CD /* AppDelegate.swift */,
 				9388D472295105F7000FE7CD /* SceneDelegate.swift */,
-				9388D474295105F7000FE7CD /* ViewController.swift */,
-				9388D476295105F7000FE7CD /* Main.storyboard */,
+				9388D4862953560E000FE7CD /* Model */,
+				9388D4842953557E000FE7CD /* Views */,
+				9388D485295355D4000FE7CD /* Controllers */,
 				9388D479295105F9000FE7CD /* Assets.xcassets */,
 				9388D47B295105F9000FE7CD /* LaunchScreen.storyboard */,
 				9388D47E295105F9000FE7CD /* Info.plist */,
 			);
 			path = "BMI Calculator";
+			sourceTree = "<group>";
+		};
+		9388D4842953557E000FE7CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9388D476295105F7000FE7CD /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9388D485295355D4000FE7CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9388D474295105F7000FE7CD /* CalculateViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9388D4862953560E000FE7CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9388D475295105F7000FE7CD /* ViewController.swift in Sources */,
+				9388D475295105F7000FE7CD /* CalculateViewController.swift in Sources */,
 				9388D471295105F7000FE7CD /* AppDelegate.swift in Sources */,
 				9388D473295105F7000FE7CD /* SceneDelegate.swift in Sources */,
 			);

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CalculateViewController: UIViewController {
     
     
     @IBOutlet weak var heightValueView: UILabel!
@@ -38,8 +38,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
-        print(heightOutlet.value)
-        print(weightOutlet.value)
+        var height = heightOutlet.value
+        var weight = weightOutlet.value
+        var bmi = weight / (height * height)
+        print(bmi)
     }
     
 }
