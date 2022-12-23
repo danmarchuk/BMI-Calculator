@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9321C12C29551E6800C0CFA1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9321C12B29551E6800C0CFA1 /* ResultViewController.swift */; };
 		9388D471295105F7000FE7CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388D470295105F7000FE7CD /* AppDelegate.swift */; };
 		9388D473295105F7000FE7CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388D472295105F7000FE7CD /* SceneDelegate.swift */; };
 		9388D475295105F7000FE7CD /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388D474295105F7000FE7CD /* CalculateViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9321C12B29551E6800C0CFA1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = "BMI Calculator/Views/ResultViewController.swift"; sourceTree = SOURCE_ROOT; };
 		9388D46D295105F7000FE7CD /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9388D470295105F7000FE7CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9388D472295105F7000FE7CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		9388D485295355D4000FE7CD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9321C12B29551E6800C0CFA1 /* ResultViewController.swift */,
 				9388D474295105F7000FE7CD /* CalculateViewController.swift */,
 			);
 			path = Controllers;
@@ -165,6 +168,7 @@
 				9388D475295105F7000FE7CD /* CalculateViewController.swift in Sources */,
 				9388D471295105F7000FE7CD /* AppDelegate.swift in Sources */,
 				9388D473295105F7000FE7CD /* SceneDelegate.swift in Sources */,
+				9321C12C29551E6800C0CFA1 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

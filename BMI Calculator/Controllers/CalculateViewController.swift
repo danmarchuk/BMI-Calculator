@@ -18,6 +18,8 @@ class CalculateViewController: UIViewController {
     
     @IBOutlet weak var weightOutlet: UISlider!
     
+    var bmi = ""
+    
     @IBAction func heightSlider(_ sender: UISlider) {
         //var value = sender.value.round(value * 100)
        // railRatioLabelField.text! = String(format: "%.2f", currentRatio)
@@ -38,11 +40,20 @@ class CalculateViewController: UIViewController {
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
-        var height = heightOutlet.value
-        var weight = weightOutlet.value
-        var bmi = weight / (height * height)
-        print(bmi)
+        let height = heightOutlet.value
+        let weight = weightOutlet.value
+        let bmiValue = weight / (height * height)
+        bmi = String(format: "%.1f", bmiValue)
+        
+        self.performSegue(withIdentifier: "goToResults", sender: self)
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "goToResults") {
+            let destinationVC = segue.destination as! ResultViewController
+            destinationVC.bmiValue = bmi
+        }
+    }
 }
 
