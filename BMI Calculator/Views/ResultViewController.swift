@@ -24,6 +24,7 @@ class ResultViewController: UIViewController {
         adviceLabel.text = advice
         view.backgroundColor = color
         
+        
     }
     
     @IBAction func recalculateButton(_ sender: Any) {

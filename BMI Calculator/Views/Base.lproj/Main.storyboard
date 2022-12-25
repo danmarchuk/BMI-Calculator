@@ -37,16 +37,19 @@
                                                     <constraint firstAttribute="height" constant="40" id="9xs-OJ-0If"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.5m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCb-4Q-TPl">
                                                 <rect key="frame" x="180.66666666666663" y="0.0" width="180.33333333333337" height="40"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="9jN-rl-a0k"/>
+                                        </constraints>
                                     </stackView>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.5" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="Rfm-ol-fUy" userLabel="HeightSlider">
                                         <rect key="frame" x="-2" y="559" width="365" height="41"/>
@@ -64,13 +67,13 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tQ-iD-1Gp">
                                                 <rect key="frame" x="0.0" y="0.0" width="180.66666666666666" height="40"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50kg" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oyf-tP-T1P">
                                                 <rect key="frame" x="180.66666666666663" y="0.0" width="180.33333333333337" height="40"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -112,6 +115,10 @@
                                     <constraint firstItem="jTJ-tW-Rju" firstAttribute="leading" secondItem="Hf5-sf-9nB" secondAttribute="leading" id="Dwx-Nz-hy4"/>
                                     <constraint firstAttribute="trailing" secondItem="jTJ-tW-Rju" secondAttribute="trailing" id="MhT-cQ-Fqf"/>
                                     <constraint firstItem="gvA-5a-JWI" firstAttribute="leading" secondItem="Hf5-sf-9nB" secondAttribute="leading" id="N0A-BP-MH2"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ij1-9Y-nNi" secondAttribute="trailing" id="Ndk-HZ-cui"/>
+                                    <constraint firstItem="2pA-1c-LDA" firstAttribute="leading" secondItem="Hf5-sf-9nB" secondAttribute="leading" id="OJJ-KM-Smt"/>
+                                    <constraint firstAttribute="trailing" secondItem="2pA-1c-LDA" secondAttribute="trailing" id="tTE-bn-LA8"/>
+                                    <constraint firstItem="Ij1-9Y-nNi" firstAttribute="leading" secondItem="Hf5-sf-9nB" secondAttribute="leading" id="ySN-dL-Lp2"/>
                                 </constraints>
                             </stackView>
                         </subviews>

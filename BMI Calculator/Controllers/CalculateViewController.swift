@@ -36,6 +36,8 @@ class CalculateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        heightValueView.text = "1.5m"
+        weightValueView.text = "50kg"
         // Do any additional setup after loading the view.
     }
     
